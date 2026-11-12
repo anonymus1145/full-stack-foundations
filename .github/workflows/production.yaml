@@ -1,0 +1,24 @@
+name: Aida Production
+
+on:
+  push:
+    branches:
+      - aida-base
+
+jobs:
+  deploy:
+    runs-on: self-host
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Install the Aida CLI
+        run: npm install --global ./.aida/aida-cli-0.0.1.tgz
+
+      - name: Deploy to production
+        run: aida deploy --target production
+        env:
+          AIDA_TOKEN: ${{ secrets.AIDA_TOKEN }}
