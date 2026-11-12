@@ -3,7 +3,7 @@ name: Aida Production
 on:
   push:
     branches:
-      - aida-preview-test
+      - aida-base
 
 jobs:
   deploy:
