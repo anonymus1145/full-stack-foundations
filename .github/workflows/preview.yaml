@@ -1,0 +1,27 @@
+name: Aida Preview
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # The pull request's own commit, not the merge commit checkout builds by default, so
+          # a preview is of the branch as pushed.
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Install the Aida CLI
+        run: npm install --global ./.aida/aida-cli-0.0.1.tgz
+
+      - name: Deploy a preview
+        run: aida deploy
+        env:
+          AIDA_TOKEN: ${{ secrets.AIDA_TOKEN }}
