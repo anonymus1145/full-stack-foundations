@@ -3,11 +3,11 @@ name: Aida Production
 on:
   push:
     branches:
-      - aida-base
+      - aida-preview-test
 
 jobs:
   deploy:
-    runs-on: self-host
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
 
