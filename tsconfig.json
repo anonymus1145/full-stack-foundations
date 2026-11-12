@@ -1,0 +1,188 @@
+{
+  "files": [],
+  "exclude": [
+    "node_modules"
+  ],
+  "references": [
+    {
+      "path": "exercises/01.styling/01.problem.public-links"
+    },
+    {
+      "path": "exercises/01.styling/01.solution.public-links"
+    },
+    {
+      "path": "exercises/01.styling/02.problem.asset-imports"
+    },
+    {
+      "path": "exercises/01.styling/02.solution.asset-imports"
+    },
+    {
+      "path": "exercises/01.styling/03.problem.global-styles"
+    },
+    {
+      "path": "exercises/01.styling/03.solution.global-styles"
+    },
+    {
+      "path": "exercises/01.styling/04.problem.compiling-css"
+    },
+    {
+      "path": "exercises/01.styling/04.solution.compiling-css"
+    },
+    {
+      "path": "exercises/01.styling/05.problem.bundling-css"
+    },
+    {
+      "path": "exercises/01.styling/05.solution.bundling-css"
+    },
+    {
+      "path": "exercises/02.routing/01.problem.routes"
+    },
+    {
+      "path": "exercises/02.routing/01.solution.routes"
+    },
+    {
+      "path": "exercises/02.routing/02.problem.links"
+    },
+    {
+      "path": "exercises/02.routing/02.solution.links"
+    },
+    {
+      "path": "exercises/02.routing/03.problem.params"
+    },
+    {
+      "path": "exercises/02.routing/03.solution.params"
+    },
+    {
+      "path": "exercises/02.routing/04.problem.resources"
+    },
+    {
+      "path": "exercises/02.routing/04.solution.resources"
+    },
+    {
+      "path": "exercises/03.loading/01.problem.loader"
+    },
+    {
+      "path": "exercises/03.loading/01.solution.loader"
+    },
+    {
+      "path": "exercises/03.loading/02.problem.missing-data"
+    },
+    {
+      "path": "exercises/03.loading/02.solution.missing-data"
+    },
+    {
+      "path": "exercises/04.mutations/01.problem.forms"
+    },
+    {
+      "path": "exercises/04.mutations/01.solution.forms"
+    },
+    {
+      "path": "exercises/04.mutations/02.problem.actions"
+    },
+    {
+      "path": "exercises/04.mutations/02.solution.actions"
+    },
+    {
+      "path": "exercises/04.mutations/03.problem.formdata-types"
+    },
+    {
+      "path": "exercises/04.mutations/03.solution.formdata-types"
+    },
+    {
+      "path": "exercises/04.mutations/04.problem.button-forms"
+    },
+    {
+      "path": "exercises/04.mutations/04.solution.button-forms"
+    },
+    {
+      "path": "exercises/04.mutations/05.problem.intent"
+    },
+    {
+      "path": "exercises/04.mutations/05.solution.intent"
+    },
+    {
+      "path": "exercises/05.scripting/01.problem.scripts"
+    },
+    {
+      "path": "exercises/05.scripting/01.solution.scripts"
+    },
+    {
+      "path": "exercises/05.scripting/02.problem.scroll-restoration"
+    },
+    {
+      "path": "exercises/05.scripting/02.solution.scroll-restoration"
+    },
+    {
+      "path": "exercises/05.scripting/03.problem.custom-scripts"
+    },
+    {
+      "path": "exercises/05.scripting/03.solution.custom-scripts"
+    },
+    {
+      "path": "exercises/05.scripting/04.problem.prefetching"
+    },
+    {
+      "path": "exercises/05.scripting/04.solution.prefetching"
+    },
+    {
+      "path": "exercises/05.scripting/05.problem.pending"
+    },
+    {
+      "path": "exercises/05.scripting/05.solution.pending"
+    },
+    {
+      "path": "exercises/06.seo/01.problem.static"
+    },
+    {
+      "path": "exercises/06.seo/01.solution.static"
+    },
+    {
+      "path": "exercises/06.seo/02.problem.nested"
+    },
+    {
+      "path": "exercises/06.seo/02.solution.nested"
+    },
+    {
+      "path": "exercises/06.seo/03.problem.dynamic"
+    },
+    {
+      "path": "exercises/06.seo/03.solution.dynamic"
+    },
+    {
+      "path": "exercises/06.seo/04.problem.matches"
+    },
+    {
+      "path": "exercises/06.seo/04.solution.matches"
+    },
+    {
+      "path": "exercises/07.error-handling/01.problem.route-errors"
+    },
+    {
+      "path": "exercises/07.error-handling/01.solution.route-errors"
+    },
+    {
+      "path": "exercises/07.error-handling/02.problem.thrown-response"
+    },
+    {
+      "path": "exercises/07.error-handling/02.solution.thrown-response"
+    },
+    {
+      "path": "exercises/07.error-handling/03.problem.error-bubbling"
+    },
+    {
+      "path": "exercises/07.error-handling/03.solution.error-bubbling"
+    },
+    {
+      "path": "exercises/07.error-handling/04.problem.root-boundary"
+    },
+    {
+      "path": "exercises/07.error-handling/04.solution.root-boundary"
+    },
+    {
+      "path": "exercises/07.error-handling/05.problem.not-found"
+    },
+    {
+      "path": "exercises/07.error-handling/05.solution.not-found"
+    }
+  ]
+}
