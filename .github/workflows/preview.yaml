@@ -19,9 +19,9 @@ jobs:
           node-version: "24"
 
       - name: Install the Aida CLI
-        run: npm install --global ./.aida/aida-cli-0.0.1.tgz
+        run: npm uninstall --global aida-cli && npm install --global ./aida-cloud-aida-cli-0.0.1.tgz
 
-      - name: Deploy a preview
-        run: aida deploy
+      - name: Deploy on staging
+        run: aida deploy -e env_01m7m6f62p3zb5syfcz8ajhgs5
         env:
           AIDA_TOKEN: ${{ secrets.AIDA_TOKEN }}
