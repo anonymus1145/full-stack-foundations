@@ -19,7 +19,14 @@ jobs:
           node-version: "24"
 
       - name: Install the Aida CLI
-        run: npm uninstall --global aida-cli && npm install --global ./aida-cloud-aida-cli-0.0.1.tgz
+        run: |
+          npm config set @aida-cloud:registry https://gitlab.group.one/api/v4/packages/npm/
+          npm config set //gitlab.group.one/api/v4/packages/npm/:_authToken "$AIDA_NPM_TOKEN"
+          npm uninstall --global aida-cli && npm uninstall @aida-cloud/aida-cli 
+          npm install --global @aida-cloud/aida-cli
+          aida -V
+        env:
+          AIDA_NPM_TOKEN: ${{ secrets.AIDA_NPM_TOKEN }}
 
       - name: Deploy on staging
         run: aida deploy -e env_01m7m6f62p3zb5syfcz8ajhgs5
