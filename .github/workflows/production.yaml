@@ -22,6 +22,8 @@ jobs:
           npm uninstall --global aida-cli && npm uninstall @aida-cloud/aida-cli 
           npm install --global @aida-cloud/aida-cli
           aida -V
+        env:
+          AIDA_NPM_TOKEN: ${{ secrets.AIDA_NPM_TOKEN }}
 
       - name: Deploy to production
         run: aida deploy --production
